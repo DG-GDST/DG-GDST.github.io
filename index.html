@@ -1,10 +1,266 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="author" content="DG-GDST">
+    <meta name="keywords" content="CV, Gusev, M33021">
+    <meta name="description" content="макет сайта резюме">
+    <title>Гусев Дмитрий М33021</title>
 </head>
-<body>
-
-</body>
+    <body>
+        <header>
+            <h1> Шапка страницы привет. Кукуха пока </h1>
+            <nav>
+                <a href="#links">Возможно полезные ссылки</a>
+                <a href="#code">Пример кода</a>
+                <a href="#quote">Любимая цитата</a>
+                <a href="#pepe">Мой любимый смайл</a>
+                <a href="#formula">Формула успеха</a>
+            </nav>
+            </header>
+        <main>
+            <article id="links">
+                Ссылки на разного рода соревновательные соревнования:
+                <ol>
+                    <li><a href="https://codeforces.com/profile/DG-GDST">Codeforces</a></li>
+                    <li><a href="https://www.codechef.com/users/penzer3">Codechef</a></li>
+                </ol>
+            </article>
+            <section id="code">
+                Пример кода, которым я горжусь.
+                Такого нет, зато есть нажористый вектор пар пар:
+                <a href="https://codeforces.com/contest/978/problem/G">Условия, для которых он писался</a>
+                <code><pre>
+                    #include &lt;iostream&gt;
+                    #include &lt;cmath&gt;
+                    #include &lt;vector&gt;
+                    #include &lt;algorithm&gt;
+                    #include &lt;stack&gt;
+                    #include &lt;set&gt;
+                    using namespace std;
+                    long long find_arr(long long* arr, long long n, long long ch){
+                        long long l = 0, r = n - 1;
+                        while (r - 1 > l){
+                            long long middle = (r + l) / 2;
+                            if (arr[middle] >= ch)
+                                r = middle;
+                            else
+                                l = middle;
+                        }
+                        if (arr[l] == ch)
+                            return l;
+                        else
+                            return r;
+                    }
+                    int used[205000];
+                    int main() {
+                        long long t, ch, i, h, a, b, l, r, z, x, y, weight, j, k = 0, n, m = 1, ch1, q, count, ans = 0;
+                        long long fl;
+                        string s, s1;
+                        long long w;
+                        cin >> n >> m;
+                        long long si, di, ci;
+                        vector&lt;pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long long&gt;&gt;&gt; vec;
+                        pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long&gt;&gt; tech_pair;
+                        pair&lt;long long, long long&gt; tech_pair1;
+                        long long* ans_arr = new long long[n + 5];
+                        for (i = 0; i < n + 3; i++)
+                            ans_arr[i] = 0;
+                        for (i = 0; i < m; i++){
+                              cin >> si >> di >> ci;
+                              tech_pair1 = make_pair(si, di);
+                              tech_pair = make_pair(tech_pair1, make_pair(ci, i + 1));
+                              vec.push_back(tech_pair);
+                        }
+                        for (i = 0; i < vec.size(); i++)
+                            ans_arr[vec[i].first.second] = m + 1;
+                        t = 0;
+                        for (i = 1; i <= n; i++){
+                            sort(vec.begin(), vec.end());
+                            if ((vec[0].first.first < vec[0].first.second) && (i >= vec[0].first.first) && (ans_arr[i] == 0) && (vec[0].second.first != 0)) {
+                                ans_arr[i] = vec[0].second.second;
+                                vec[0].first.first = i;
+                                vec[0].second.first--;
+                            }
+                            if (vec[0].second.first == 0){
+                                vec[0].first.first = n + 1;
+                            }
+                            for (j = 0; j < vec.size(); j++)
+                                vec[j].first.first = max(i + 1, vec[j].first.first);
+                        }
+                        long long sum = 0;
+                        for (i = 0; i < vec.size(); i++){
+                            sum += vec[0].second.first;
+                        }
+                        if (sum != 0){
+                            cout << -1;
+                        }else{
+                            for (i = 1; i <= n; i++)
+                                cout << ans_arr[i] << " ";
+                        }
+                        return 0;
+                    }
+                </pre></code>
+                <aside id="quote">
+                    Моя любимая цитата:
+                    <p>Слова <cite>Виктора Степановича Черномырдина</cite> - <q>Хотели как лучше, а получилось, как всегда</q>.
+                        Данные слова он произнес <time datatime="1993-08-06">6 августа 1993 года</time>
+                        на пресс-конференции Правительства РФ.
+                    </p>
+                </aside>
+                <aside id="pepe">
+                    Обожаю картиночки с пепе
+                    <pre>
+⠄⢀⣀⣤⣴⣶⣶⣤⣄⡀⠄⠄⣀⣤⣤⣤⣤⡀
+⣴⣏⣹⣿⠿⠿⠿⠿⢿⣿⣄⢿⣿⣿⣿⣿⣿⣋⣷⡄
+⣿⢟⣩⣶⣾⣿⣿⣿⣶⣮⣭⡂⢛⣭⣭⣭⣭⣭⣍⣛⣂⡀
+⣿⣿⣿⣿⡿⢟⣫⣭⣷⣶⣾⣭⣼⡻⢛⣛⣭⣭⣶⣶⣬⣭⣅
+⣿⡿⢏⣵⣾⣿⣿⣿⡿⢉⡉⠙⢿⣇⢻⣿⣿⣿⣿⡟⠉⠉⢻⡷
+⣿⣷⣾⣍⣛⢿⣿⣿⣿⣤⣁⣤⣿⢏⠸⣿⣿⣿⣿⣷⣬⣥⣾⠁⣿⣿⣷
+⣿⣿⣿⣿⣭⣕⣒⠿⠭⠭⠭⡷⢖⣫⣶⣶⣬⣭⣭⣭⣭⣥⡶⢣⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡿⣟⣛⣭⣾⣿⣿⣿⣝⡛⣿⢟⣛⣛⣁⣀⣸⣿⣿⣿⣀⣀⣀
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⡿⢛⣛⣛⣛⣙⣛⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣬⣭⣭⠽⣛⢻⣿⣿⣿⠛⠛⠛
+⣿⢰⣿⣿⣿⣿⣟⣛⣛⣶⠶⠶⠶⣦⣭⣭⣭⣭⣶⡶⠶⣾⠟⢸⣿⣿⣿
+⡻⢮⣭⣭⣭⣭⣉⣛⣛⡻⠿⠿⠷⠶⠶⠶⠶⣶⣶⣾⣿⠟⢣⣬⣛⡻⢱⣇
+                    </pre>
+                </aside>
+                <aside id="formula">
+                    <p>Формула успеха</p>
+                    Успех=Число выпитого пива<sup>3</sup>/Пиво<sub>0</sub>, где Пиво<sub>0</sub> - общее число пива в мире, а Успех=1 абсолютный успех
+                </aside>
+            </section>
+        </main>
+        <footer>
+            Контакты:
+            <ul>
+                <li>telegram - @GusevD</li>
+                <li>Почта для связи №1: duduop183@gmail.com</li>
+                <li>Почта для связи №2: duduop183@yandex.ru</li>
+            </ul>
+        </footer>
+    </body>
 </html>
+
+<script>
+    (function (){
+        'use strict';
+
+        /* Вставка тега link */
+        let head = document.getElementsByTagName('head')[0]
+        let cssStyle = document.createElement('link');
+        cssStyle.setAttribute('rel', 'stylesheet');
+        cssStyle.setAttribute('id', 'outline-prototype');
+        head.appendChild(cssStyle);
+
+
+        let fragment = document.createDocumentFragment();
+        let section = document.createElement('section');
+        createOutlinePanel();
+        fragment.appendChild(section);
+        document.body.append(fragment);
+
+        let outlinePanel = document.querySelector('.outline-controls');
+        let outlineMove = document.querySelector('.outline-controls__move');
+
+        /* Вставка обвёртки для панельки HTML */
+        function createOutlinePanel() {
+            section.classList.add('outline-controls');
+            section.style = 'position: fixed; top: 20px; left: 20px; padding: 5px; border-radius: 5px; background-color: #FFA0A0; z-index: 9999;';
+            for (let i = 0; i < 3; i++) {
+                let div = document.createElement('div');
+                if (i === 0) {
+                    div.appendChild(createInputLabel('labelsOn').input);
+                    div.appendChild(createInputLabel('labelsOn').label);
+                } else if (i === 1) {
+                    div.appendChild(createInputLabel('labelsOff').input);
+                    div.appendChild(createInputLabel('labelsOff').label);
+                } else if (i === 2) {
+                    div.appendChild(createInputLabel('outlineOff').input);
+                    div.appendChild(createInputLabel('outlineOff').label);
+                }
+                section.appendChild(div);
+            };
+            section.appendChild(createButtonMove());
+        }
+
+        /* Вставка инмутов и лейблов */
+        function createInputLabel(param) {
+            let input = document.createElement('input');
+            input.type = 'radio';
+            input.name = 'outline-choice';
+            input.id = param;
+
+            let label = document.createElement('label');
+            label.setAttribute('for', param);
+            label.innerText = param;
+
+            return {
+                input,
+                label
+            }
+        }
+
+        /* Переключение стилей */
+        outlinePanel.addEventListener('change', onOutlinePanelChoice);
+        function onOutlinePanelChoice(evt) {
+            const outlinelabel = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/5774cf08d7af2205446a93b345ec0a7bcd0546ed/css/outline-prototype-label.css';
+            const outlineSafe = 'https://rawcdn.githack.com/ArtMan-8/outline-prototype/5774cf08d7af2205446a93b345ec0a7bcd0546ed/css/outline-prototype-safe.css';
+            switch (evt.target.id) {
+                case 'labelsOn':
+                    cssStyle.href = outlinelabel;
+                    break;
+                case 'labelsOff':
+                    cssStyle.href = outlineSafe;
+                    break;
+                case 'outlineOff':
+                    cssStyle.href = '';
+                    break;
+            };
+        }
+
+        /* Вставка кнопки перемещения */
+        function createButtonMove() {
+            let buttonMove = document.createElement('button');
+            buttonMove.innerText = 'move';
+            buttonMove.classList.add('outline-controls__move');
+            buttonMove.style = 'display: block; width: 100%; margin: auto; border-radius: 5px; cursor: grab;';
+            return buttonMove;
+        }
+
+        /* Перемещение панельки */
+        outlineMove.addEventListener('mousedown', onMoveMousedown);
+        function onMoveMousedown(evt) {
+            evt.preventDefault();
+            let startCoordinates = {
+                x: evt.clientX,
+                y: evt.clientY
+            };
+
+            let onMousemove = function (moveEvt) {
+                moveEvt.preventDefault();
+                let shift = {
+                    x: startCoordinates.x - moveEvt.clientX,
+                    y: startCoordinates.y - moveEvt.clientY
+                };
+
+                startCoordinates = {
+                    x: moveEvt.clientX,
+                    y: moveEvt.clientY
+                };
+
+                outlinePanel.style.left = (outlinePanel.offsetLeft - shift.x) + 'px';
+                outlinePanel.style.top = (outlinePanel.offsetTop - shift.y) + 'px';
+            };
+
+            let onMouseup = function (upEvt) {
+                upEvt.preventDefault();
+                document.removeEventListener('mousemove', onMousemove);
+                document.removeEventListener('mouseup', onMouseup);
+            };
+
+            document.addEventListener('mousemove', onMousemove);
+            document.addEventListener('mouseup', onMouseup);
+        }
+    })();
+</script>
