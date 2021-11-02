@@ -62,75 +62,76 @@
                 <p>Такого нет, зато есть нажористый вектор пар пар:</p>
                 <a href="https://codeforces.com/contest/978/problem/G">Условия, для которых он писался</a>
                 <code><pre class="format_code">
-    #include &lt;iostream&gt;
-    #include &lt;cmath&gt;
-    #include &lt;vector&gt;
-    #include &lt;algorithm&gt;
-    #include &lt;stack&gt;
-    #include &lt;set&gt;
-    using namespace std;
-    long long find_arr(long long* arr, long long n, long long ch){
-        long long l = 0, r = n - 1;
-        while (r - 1 > l){
-            long long middle = (r + l) / 2;
-            if (arr[middle] >= ch)
-                r = middle;
-            else
-                l = middle;
-        }
-        if (arr[l] == ch)
-            return l;
+#include &lt;iostream&gt;
+#include &lt;cmath&gt;
+#include &lt;vector&gt;
+#include &lt;algorithm&gt;
+#include &lt;stack&gt;
+#include &lt;set&gt;
+using namespace std;
+long long find_arr(long long* arr, long long n, long long ch){
+    long long l = 0, r = n - 1;
+    while (r - 1 > l){
+        long long middle = (r + l) / 2;
+        if (arr[middle] >= ch)
+            r = middle;
         else
-            return r;
+            l = middle;
     }
-    int used[205000];
-    int main() {
-        long long t, ch, i, h, a, b, l, r, z, x, y, weight, j, k = 0, n, m = 1, ch1, q, count, ans = 0;
-        long long fl;
-        string s, s1;
-        long long w;
-        cin >> n >> m;
-        long long si, di, ci;
-        vector&lt;pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long long&gt;&gt;&gt; vec;
-        pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long&gt;&gt; tech_pair;
-        pair&lt;long long, long long&gt; tech_pair1;
-        long long* ans_arr = new long long[n + 5];
-        for (i = 0; i < n + 3; i++)
-            ans_arr[i] = 0;
-        for (i = 0; i < m; i++){
-              cin >> si >> di >> ci;
-              tech_pair1 = make_pair(si, di);
-              tech_pair = make_pair(tech_pair1, make_pair(ci, i + 1));
-              vec.push_back(tech_pair);
-        }
-        for (i = 0; i < vec.size(); i++)
-            ans_arr[vec[i].first.second] = m + 1;
-        t = 0;
-        for (i = 1; i <= n; i++){
-            sort(vec.begin(), vec.end());
-            if ((vec[0].first.first < vec[0].first.second) && (i >= vec[0].first.first) && (ans_arr[i] == 0) && (vec[0].second.first != 0)) {
-                ans_arr[i] = vec[0].second.second;
-                vec[0].first.first = i;
-                vec[0].second.first--;
-            }
-            if (vec[0].second.first == 0){
-                vec[0].first.first = n + 1;
-            }
-            for (j = 0; j < vec.size(); j++)
-                vec[j].first.first = max(i + 1, vec[j].first.first);
-        }
-        long long sum = 0;
-        for (i = 0; i < vec.size(); i++){
-            sum += vec[0].second.first;
-        }
-        if (sum != 0){
-            cout << -1;
-        }else{
-            for (i = 1; i <= n; i++)
-                cout << ans_arr[i] << " ";
-        }
-        return 0;
+    if (arr[l] == ch)
+        return l;
+    else
+        return r;
+}
+int used[205000];
+int main() {
+    long long t, ch, i, h, a, b, l, r, z, x, y, weight, j, k = 0, n, m = 1, ch1, q, count, ans = 0;
+    long long fl;
+    string s, s1;
+    long long w;
+    cin >> n >> m;
+    long long si, di, ci;
+    vector&lt;pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long long&gt;&gt;&gt; vec;
+    pair&lt;pair&lt;long long, long long&gt;, pair&lt;long long, long&gt;&gt; tech_pair;
+    pair&lt;long long, long long&gt; tech_pair1;
+    long long* ans_arr = new long long[n + 5];
+    for (i = 0; i < n + 3; i++)
+        ans_arr[i] = 0;
+    for (i = 0; i < m; i++){
+          cin >> si >> di >> ci;
+          tech_pair1 = make_pair(si, di);
+          tech_pair = make_pair(tech_pair1, make_pair(ci, i + 1));
+          vec.push_back(tech_pair);
     }
+    for (i = 0; i < vec.size(); i++)
+        ans_arr[vec[i].first.second] = m + 1;
+    t = 0;
+    for (i = 1; i <= n; i++){
+        sort(vec.begin(), vec.end());
+        if ((vec[0].first.first < vec[0].first.second) && (i >= vec[0].first.first)
+                && (ans_arr[i] == 0) && (vec[0].second.first != 0)) {
+            ans_arr[i] = vec[0].second.second;
+            vec[0].first.first = i;
+            vec[0].second.first--;
+        }
+        if (vec[0].second.first == 0){
+            vec[0].first.first = n + 1;
+        }
+        for (j = 0; j < vec.size(); j++)
+            vec[j].first.first = max(i + 1, vec[j].first.first);
+    }
+    long long sum = 0;
+    for (i = 0; i < vec.size(); i++){
+        sum += vec[0].second.first;
+    }
+    if (sum != 0){
+        cout << -1;
+    }else{
+        for (i = 1; i <= n; i++)
+            cout << ans_arr[i] << " ";
+    }
+    return 0;
+}
                 </pre></code>
                 <aside id="quote">
                     <h2>Моя любимая цитата:</h2>

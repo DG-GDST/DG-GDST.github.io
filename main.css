@@ -3,19 +3,21 @@ body{
     margin: 0;
 }
 
-
 .navigation{
     display: inline-block;
     text-align: center;
     width: 100%;
 }
 
+
 h2{
+    margin-left: 10px;
     font-weight: lighter;
     text-align: left;
 }
 
 p{
+    margin-left: 10px;
     line-height: 20px;
 }
 
@@ -26,12 +28,15 @@ p{
 
 .scp3515{
     float: left;
-    margin: 10px 10px 10px 0;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 5px 2px rgb(80, 80, 80);
 }
 
 .format_code{
     background-color: #ccccd1;
     width: 100%;
+    margin: 0;
+    padding: 5px 40px;
     font-family: "hack";
     font-size: 19px;
 }
