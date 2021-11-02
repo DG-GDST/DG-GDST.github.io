@@ -1,0 +1,66 @@
+body{
+    background-color: #f5f7f7;
+    margin: 0;
+}
+
+
+.navigation{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    font-weight: lighter;
+    text-align: left;
+}
+
+p{
+    line-height: 20px;
+}
+
+
+.navigation a{
+    display: inline-block;
+}
+
+.scp3515{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.format_code{
+    background-color: #ccccd1;
+    width: 100%;
+    font-family: "hack";
+    font-size: 19px;
+}
+
+.pepe{
+
+}
+
+.footer{
+    padding: 1px;
+    background-color: black;
+}
+
+.contact-h{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    color: #c8c8c8;
+    font-size: 15px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.contact{
+    margin: auto;
+    color: #c8c8c8;
+    list-style-type: none;
+}
