@@ -4,52 +4,64 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css'>
+    <script src="/JS/script.js"></script>
     <meta name="author" content="DG-GDST">
     <meta name="keywords" content="CV, Gusev, M33021">
     <meta name="description" content="макет сайта резюме">
     <title>Гусев Дмитрий М33021</title>
 </head>
     <body>
-        <header>
-            <nav class="navigation">
-                <a href="#about">О себе</a> |
-                <a href="#goals">Цели</a>
-                <a href="#links">Ссылки на меня на других платформах</a> |
-                <a href="#code">Пример кода</a> |
-                <a href="#quote">Любимая цитата</a> |
-                <a href="#pepe">Мой любимый смайл</a> |
-                <a href="#formula">Формула успеха</a>
-            </nav>
+        <div id="wrap">
+            <header>
+                <div class ="navigation-div">
+                    <button class="nav-button">Навигация по странице</button>
+                        <nav class="navigation">
+                            <div class="page-navigation">
+                                <a href="#about">О себе</a>
+                                <a href="#goals">Цели</a>
+                                <a href="#links">Ссылки на меня на других платформах</a>
+                                <a href="#code">Пример кода</a>
+                                <a href="#quote">Любимая цитата</a>
+                                <a href="#pepe">Мой любимый смайл</a>
+                                <a href="#formula">Формула успеха</a>
+                            </div>
+                        </nav>
+                </div>
             </header>
         <main>
-            <div>
+            <div class="ad">
                 <p>Этот объект представляет из себя статью из панели, которая на рисунке дизайна изображена справа,
                 тут могут быть ссылки на внешние источники информации или же
                     даже реклама <strong>Arolf он правда делает рекламу на странице с резюме</strong></p>
+                <img src="content/ad.jfif" width=100%>
             </div>
-            <section id="about">
-                <h2>О себе</h2>
-                <img src="content/scp3515.jpg" width="129" height="100" class="scp3515" >
-                <p>Я студент 3 курса университета ИТМО. На данный момент я работаю асессором
-                в Яндексе и пытаюсь найти хотя бы что-то связанное с моим образованием(безуспешно), а также
-                    слушаю лекции школы бэкенд разработки Яндекса как работник(мне даже нельзя участвовать sadCat).</p>
-                <p>Далее вы можете найти боль и SCP-3515 самокопание.</p>
-                <dl>
-                    <dt>Почему дальше будет идти боль и самокопание?</dt>
-                    <dd>Минимум 22 отказа за последние два года. От IT гигантов вроде ЧМК. Его не взяли на завод, хехе.</dd>
-                </dl>
-            </section>
-            <section id="goals">
-                <h2>Цели</h2>
-                <ol>
-                    <li><time datetime="2002-02-23">Родиться✓</time></li>
-                    <li><time datetime="2008-09-01">Поступить в школу✓</time></li>
-                    <li><time datetime="2019-09-01">Поступить в университет✓</time></li>
-                    <li><del>Найти стажировку</del></li>
-                    <li value="4">UPDATED: Найти работу не в маке</li>
-                    <li>Постараться не выйти в окно в ночь после написания сюда текста</li>
-                </ol>
-            </section>
+            <div>
+                <section id="about">
+                    <h2>О себе</h2>
+                    <img src="content/scp3515.jpg" width=20% class="scp3515" >
+                    <p>Я студент 3 курса университета ИТМО. На данный момент я работаю асессором
+                    в Яндексе и пытаюсь найти хотя бы что-то связанное с моим образованием(безуспешно), а также
+                        слушаю лекции школы бэкенд разработки Яндекса как работник(мне даже нельзя участвовать sadCat).</p>
+                    <p>Далее вы можете найти боль и SCP-3515 самокопание.</p>
+                    <dl>
+                        <dt>Почему дальше будет идти боль и самокопание?</dt>
+                        <dd>Минимум 22 отказа за последние два года. От IT гигантов вроде ЧМК. Его не взяли на завод, хехе.</dd>
+                    </dl>
+                </section>
+            </div>
+            <div>
+                <section id="goals">
+                    <h2>Цели</h2>
+                    <ol>
+                        <li><time datetime="2002-02-23">Родиться✓</time></li>
+                        <li><time datetime="2008-09-01">Поступить в школу✓</time></li>
+                        <li><time datetime="2019-09-01">Поступить в университет✓</time></li>
+                        <li><del>Найти стажировку</del></li>
+                        <li value="4">UPDATED: Найти работу не в маке</li>
+                        <li>Постараться не выйти в окно в ночь после написания сюда текста</li>
+                    </ol>
+                </section>
+            </div>
             <article id="links">
                 <h2>Ссылки на разного рода соревновательные соревнования:</h2>
                 <ol>
@@ -164,6 +176,7 @@ int main() {
                 </aside>
             </section>
         </main>
+        </div>
         <footer class="footer">
             <h3 class="contact-h"> Контакты</h3>
             <ul class="contacts">
@@ -171,10 +184,10 @@ int main() {
                 <li class="contact">Почта №1: duduop183@gmail.com</li>
                 <li class="contact">Почта №2: duduop183@yandex.ru</li>
             </ul>
+            <p id="timeinfo" class="timeinfo">Время загрузки: </p>
         </footer>
     </body>
 </html>
-
 <script>
     (function (){
         'use strict';
