@@ -1,6 +1,9 @@
 body{
     background-color: #f5f7f7;
     margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .navigation{
@@ -9,6 +12,9 @@ body{
     width: 100%;
 }
 
+main{
+    height: 100%;
+}
 
 h2{
     margin-left: 10px;
@@ -28,14 +34,16 @@ p{
 
 .scp3515{
     float: left;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 2% 1% 1%;
     box-shadow: 1px 1px 5px 2px rgb(80, 80, 80);
+}
+
+.div_code{
+    flex-grow: 0;
 }
 
 .format_code{
     background-color: #ccccd1;
-    width: 100%;
-    margin: 0;
     padding: 5px;
     overflow-x: scroll;
     font-family: "hack";
@@ -52,10 +60,14 @@ p{
 }
 
 .nav-button{
+    /*position: absolute;*/
+    /*right: auto;*/
+    /*left: 10px;*/
+    /*top: 103px;*/
     background-color: cadetblue;
     color: white;
     padding: 16px;
-    font-weight: 10px;
+    font-size: 20px;
     border: none;
 }
 
@@ -78,30 +90,43 @@ p{
     display: block;
 }
 
-.ad {
+.page-navigation a:hover{
+    background-color: yellow;
+}
+
+.page-navigation_selected{
+    background-color: rgba(130, 130, 100, 0.2);
+}
+
+.ad{
     float: right;
     width: 10%;
+    flex-basis: content;
+    flex-direction: column;
     margin: 10px 0px 10px 1px;
 }
 
-.ad img{
-    border: 20px
-/* поч(м)инки*/
+@media (max-width:1000px){
+    .ad{
+        display:none;
+    }
 }
 
-#wrap{
+.wrap{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: auto;
     box-sizing: border-box;
-    display: block;
 }
 
 .navigation-div:hover .page-navigation {display: block;}
 
 .navigation-div:hover .nav-button {background-color: #3e8e41;}
 
+
+
 .footer{
+    position: static;
     background-color: black;
     flex-shrink: 0;
     padding: 10px 30px;
@@ -118,8 +143,8 @@ p{
 
 .contacts{
     display: flex;
+    flex-grow: 0;
     flex-direction: row;
-    width: 100%;
 }
 
 .contact{
@@ -132,4 +157,81 @@ p{
     margin: auto;
     color: #c8c8c8;
     list-style-type: none;
+}
+
+.pictures{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    align-content: start;
+    display: inline;
+}
+
+.distinct_picture{
+    max-height: 200px;
+    padding: 1%;
+    box-shadow: 1px 1px 1px 1px rgb(200, 200, 200);
+}
+
+table{
+    margin: 1%;
+    display: grid;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    overflow-y: auto;
+    grid-template-columns:
+    minmax(100px, 1fr)
+    minmax(250px, 2fr)
+    minmax(250px, 2fr)
+    minmax(220px, 2fr);
+}
+thead, tbody, tr {
+    display: contents;
+}
+
+th, td {
+    text-align: center;
+    padding: 0.8em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+th {
+    top: 0;
+    background: gray;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+tr:nth-child(even) td {
+    background: rgba(200, 200, 180, 0.3);
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    display: block;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.swiper-container{
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
 }

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/promises.css">
+    <script src="../JS/script.js"></script>
+    <script src="../JS/promises.js"></script>
+    <meta name="author" content="DG-GDST">
+    <meta name="keywords" content="CV, Gusev, M33021, promises">
+    <meta name="description" content="Promises">
+    <title>Страница для promises</title>
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <div class ="navigation-div">
+            <button class="nav-button">Навигация</button>
+            <nav class="navigation">
+                <div class="page-navigation">
+                    <a href="../index.html" id="main">Главная страница</a>
+                    <a href="../html-pages/table-page.html" id="table">Страница с таблицей</a>
+                    <a href="../html-pages/form-page.html" id="form">Страница с формой</a>
+                    <a href="../html-pages/promises.html" id="promises">Страница с promises</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="client_header">
+            <button id="make-promise">Показать случайного пользователя</button>
+        </div>
+        <div class="loading-gallery">
+            <div class="loading-flex-gallery">
+                <div id="log">
+                    <template id="userCard">
+                        <div class="userCardDiv">
+                            <h4>username:</h4>
+                            <p></p>
+                            <h4>name:</h4>
+                            <p></p>
+                            <h4>email:</h4>
+                            <p></p>
+                            <h4>address:</h4>
+                            <p></p>
+                            <h4>phone:</h4>
+                            <p></p>
+                            <h4>website:</h4>
+                            <p></p>
+                            <h4>company:</h4>
+                            <p></p>
+                        </div>
+                    </template>
+                    <template id="errorMessage">
+                        <div class = "errorMessageDiv">
+
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<footer class="footer">
+    <h3 class="contact-h"> Контакты</h3>
+    <ul class="contacts">
+        <li class="contact">telegram - @GusevD</li>
+        <li class="contact">Почта №1: duduop183@gmail.com</li>
+        <li class="contact">Почта №2: duduop183@yandex.ru</li>
+    </ul>
+    <p id="timeinfo" class="timeinfo">Время загрузки: </p>
+</footer>
+</body>
+</html>

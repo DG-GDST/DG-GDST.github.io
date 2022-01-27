@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.taskLine {
+    font-size: 1.3em;
+    position: relative;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 15px;
+    list-style-type: none;
+    padding: 0.5em;
+    background-color: rgba(26, 44, 80, 0.35);
+}
+
+.TaskLines{
+    width: 50%;
+}
+
+.TaskManager{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.close {
+    display: inline;
+    height: 90%;
+    cursor: default;
+    position: absolute;
+    top: 0.1em;
+    right: 0.1em;
+}
+
+img.delete {
+    height: 70%;
+    cursor: default;
+    position: absolute;
+    left: -1.7em;
+    top: 0.3em;
+}
+
+.done {
+    background-color: rgba(105, 240, 77, 1);
+    background-size: auto 100%;
+}
+
+#TaskList {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#newInput {
+    font-size: 1.2em;
+    margin: 0 0.5em 0.5em 0.5em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 0.5em;
+}
