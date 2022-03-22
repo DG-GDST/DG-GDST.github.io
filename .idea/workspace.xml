@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27a1fb25-c9bb-45cb-9595-fd35032f8f01" name="Changes" comment="Я хочу умереть">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DG-GDST.github.io.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/form.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/promises.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/2gal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/3gal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/4gal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/5gal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ad.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/load.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/p06b5pst.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/scp3515.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/promises.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-pages/form-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-pages/promises.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html-pages/table-page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outline-prototype-safe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Спасите меня от дизайна, а дизайн от меня.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1z0W4cFGT5w092isINnTgA17lkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pepesite/package.json" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\W5\DG-GDST.github.io\pepesite\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/pepesite/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="PORT" value="1234" />
+      </envs>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27a1fb25-c9bb-45cb-9595-fd35032f8f01" name="Changes" comment="" />
+      <created>1633285295998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633285295998</updated>
+      <workItem from="1633285297210" duration="24551000" />
+      <workItem from="1634678512731" duration="1274000" />
+      <workItem from="1635850667391" duration="20965000" />
+      <workItem from="1636980556527" duration="14191000" />
+      <workItem from="1637061046978" duration="862000" />
+      <workItem from="1637143957019" duration="425000" />
+      <workItem from="1638212091616" duration="28539000" />
+      <workItem from="1639392262868" duration="21751000" />
+      <workItem from="1639518704007" duration="23456000" />
+      <workItem from="1640691268784" duration="9695000" />
+      <workItem from="1640774126900" duration="560000" />
+      <workItem from="1643295736212" duration="922000" />
+      <workItem from="1646691296694" duration="1445000" />
+      <workItem from="1646765707969" duration="6413000" />
+      <workItem from="1647949844808" duration="3132000" />
+      <workItem from="1647953951475" duration="287000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1633285343501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633285343501</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1633285491320</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1633285491320</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test deleted">
+      <created>1633286353306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633286353306</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Мне все еще стыдно за то, что я делаю">
+      <created>1633368959446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633368959446</updated>
+    </task>
+    <task id="LOCAL-00005" summary="SadCat cv&#10;1 lab all tasks">
+      <created>1633383900591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633383900593</updated>
+    </task>
+    <task id="LOCAL-00006" summary="SadCat cv&#10;2 lab all tasks">
+      <created>1635877828032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635877828032</updated>
+    </task>
+    <task id="LOCAL-00007" summary="SadCat cv&#10;2 lab all tasks">
+      <created>1635878126916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1635878126916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="1-5 tasks 2nd lab added">
+      <created>1635879367604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1635879367604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1-5 tasks 2nd lab added">
+      <created>1635879402884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635879402884</updated>
+    </task>
+    <task id="LOCAL-00010" summary="row 3,4">
+      <created>1638264722542</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638264722542</updated>
+    </task>
+    <task id="LOCAL-00011" summary="row 3,4">
+      <created>1638264862323</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638264862323</updated>
+    </task>
+    <task id="LOCAL-00012" summary="row 3,4">
+      <created>1638265041358</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638265041358</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Все очень очень плохо">
+      <created>1643296038302</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643296038302</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Я хочу умереть">
+      <created>1647953436251</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1647953436251</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="test deleted" />
+    <MESSAGE value="Мне все еще стыдно за то, что я делаю" />
+    <MESSAGE value="SadCat cv&#10;1 lab all tasks" />
+    <MESSAGE value="SadCat cv&#10;2 lab all tasks" />
+    <MESSAGE value="1-5 tasks 2nd lab added" />
+    <MESSAGE value="row 3,4" />
+    <MESSAGE value="Все очень очень плохо" />
+    <MESSAGE value="Я хочу умереть" />
+    <option name="LAST_COMMIT_MESSAGE" value="Я хочу умереть" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/JS/script.js</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

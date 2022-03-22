@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <script src="../JS/script.js"></script>
+    <script src="../JS/form.js"></script>
+    <meta name="author" content="DG-GDST">
+    <meta name="keywords" content="CV, Gusev, M33021, forms">
+    <meta name="description" content="страница для лабы 5">
+    <title>Страница для заполнения формы</title>
+</head>
+<body>
+<div id="wrap">
+<header>
+    <div class ="navigation-div">
+        <button class="nav-button">Навигация</button>
+        <nav class="navigation">
+            <div class="page-navigation">
+                <a href="../index.html" id="main">Главная страница</a>
+                <a href="../html-pages/table-page.html" id="table">Страница с таблицей</a>
+                <a href="../html-pages/form-page.html" id="form">Страница, с формой</a>
+                <a href="../html-pages/promises.html" id="promises">Страница с promises</a>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+
+    <div class="TaskManager">
+        <form onsubmit="newElement();return false" id="TaskHeadid" class="TaskHead">
+            <input type="text" id="newInput" autocomplete="off" required>
+        </form>
+        <div class="TaskLines">
+            <ul id="TaskList">
+                <template id="line">
+                    <li class ="taskLine">
+                        <img src="../content/ok.png" class="close">
+                        <div class="del">
+                            <img src="../content/delete.png" class="delete">
+                        </div>
+                    </li>
+                </template>
+            </ul>
+        </div>
+    </div>
+
+</main>
+</div>
+    <footer class="footer">
+        <h3 class="contact-h"> Контакты</h3>
+        <ul class="contacts">
+            <li class="contact">telegram - @GusevD</li>
+            <li class="contact">Почта №1: duduop183@gmail.com</li>
+            <li class="contact">Почта №2: duduop183@yandex.ru</li>
+        </ul>
+        <p id="timeinfo" class="timeinfo">Время загрузки: </p>
+    </footer>
+</body>
+</html>
