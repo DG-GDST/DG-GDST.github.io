@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27a1fb25-c9bb-45cb-9595-fd35032f8f01" name="Changes" comment="Я хочу умереть">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/DG-GDST.github.io.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/promises.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/2gal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/3gal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/4gal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/5gal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ad.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/load.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ok.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/p06b5pst.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/scp3515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/promises.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-pages/form-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-pages/promises.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html-pages/table-page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/outline-prototype-safe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Спасите меня от дизайна, а дизайн от меня.png" beforeDir="false" />
+    <list default="true" id="27a1fb25-c9bb-45cb-9595-fd35032f8f01" name="Changes" comment="Я хочу умереть. PKM">
+      <change beforePath="$PROJECT_DIR$/public/pepesite" beforeDir="false" afterPath="$PROJECT_DIR$/public/pepesite" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +48,7 @@
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/pepesite/package.json" />
+      <package-json value="$PROJECT_DIR$/public/pepesite/package.json" />
       <command value="run" />
       <scripts>
         <script value="start" />
@@ -113,6 +84,7 @@
       <workItem from="1646765707969" duration="6413000" />
       <workItem from="1647949844808" duration="3132000" />
       <workItem from="1647953951475" duration="287000" />
+      <workItem from="1647954264927" duration="252000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1633285343501</created>
@@ -212,7 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1647953436251</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Я хочу умереть. PKM">
+      <created>1647954287845</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1647954287845</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Я хочу умереть. PKM">
+      <created>1647954469759</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647954469759</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +226,8 @@
     <MESSAGE value="row 3,4" />
     <MESSAGE value="Все очень очень плохо" />
     <MESSAGE value="Я хочу умереть" />
-    <option name="LAST_COMMIT_MESSAGE" value="Я хочу умереть" />
+    <MESSAGE value="Я хочу умереть. PKM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Я хочу умереть. PKM" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
